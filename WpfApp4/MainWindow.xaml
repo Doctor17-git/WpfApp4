@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <TextBlock Background="Azure" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="364" Width="254" FontSize="22"><Run Text="Компьютерные сети"/><LineBreak/><Run Text="Базы данных"/><LineBreak/><Run Text="Операционные системы"/></TextBlock>
+        <TextBlock Background="Azure" HorizontalAlignment="Left" Margin="269,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="364" Width="513" FontSize="22"><Run Text="Специальность 09.02.07"/><LineBreak/><Run Text="Информационные системы и програмированние"/><LineBreak/><Run Text="Общепрофессиональный цикл"/><LineBreak/><Run Text="ОП.11 Компьютерные сети"/><LineBreak/><Run Text="Курс 3"/><LineBreak/><Run Text="Группа 31"/><Run Text="/32"/><Run Text="П"/></TextBlock>
+        <TextBlock Background="#4ae5df" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="772" FontSize="22" TextAlignment="Center" Text="Информационные системы и програмированние" Foreground="White" FontWeight="Bold"/>
+    </Grid>
+</Window>
